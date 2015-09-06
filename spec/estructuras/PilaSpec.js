@@ -36,5 +36,10 @@ describe("Estructuras", function() {
       nuevaPila.push("algo");
       expect(function() {nuevaPila.push("todo");}).toThrow();
     });
+
+    it(" puede ser limitada ", function() {
+      var nuevaPila=new Pila(1);
+      expect(function() {nuevaPila.pop();}).toThrow();
+    });
   });
 });
