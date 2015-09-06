@@ -1,0 +1,19 @@
+{
+  "name": "jasmine-tdd",
+  "version": "1.0.0",
+  "description": "Proyecto base de TDD con jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "jarrov.github.io"
+  },
+  "author": "Jesús Arroyo",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "jasmine": "^2.3.2"
+  }
+}
